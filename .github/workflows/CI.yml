@@ -29,7 +29,6 @@ jobs:
     - name: iOS.Debug
       run: |
         ls
-        cd XamarinExperiment
         msbuild ./XamarinExperiment.iOS/XamarinExperiment.iOS.csproj /t:Rebuild /p:Configuration=Debug /p:Platform=iPhoneSimulator
     #- name: iOS.Debug_Mock
     #  run: |
